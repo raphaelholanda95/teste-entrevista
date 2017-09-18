@@ -1,0 +1,108 @@
+
+	body {
+		background-color: #fafafa !important;
+	}
+
+	header {
+		height: 77px !important;
+		background-color: white !important;
+		border-bottom: 1px solid rgba(90,90,90,0.15);
+	}
+
+	header .icones {
+		margin-top: -25px;
+	}
+
+	header .icone3 {
+		float: left !important;
+		margin-left: 35px;
+		margin-top: 6px;
+		cursor: pointer;
+	}
+
+	header .icone2 {
+		float: right !important;
+		margin-right: 33px;
+		margin-top: -25px;
+		cursor: pointer;
+	}
+
+	header .icone1 {
+		float: right !important;
+		margin-right: 33px;
+		margin-top: -25px;
+		cursor: pointer;
+	}
+
+	header .icone4 {
+		float: right !important;
+		margin-right: 33px;
+		margin-top: -25px;
+		cursor: pointer;
+	}
+
+	.busca input {
+		float: center;
+		width: 220px;
+		height: 28px;
+		background-color:  rgba(90,90,90,0.03);
+		-webkit-appearance: none !important;
+		-webkit-box-direction: normal !important;
+		outline-style: none !important;
+		border: 1px solid rgba(90,90,90,0.2);
+	    border-radius: 3px;
+		margin-left: -344px;
+		margin-top: 25px;
+	}
+
+	.busca input::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+	    color: rgba(90,90,90,0.5);
+	    text-align: center;
+	}
+
+	.posts {
+		max-width: 600px;
+	}
+
+	.post {
+		background-color: white !important;
+		border: 1px solid rgba(90,90,90,0.15);
+		margin-top: 60px;
+		width: 600px;
+	}
+
+	.titulo {
+		height: 60px;
+	}
+
+	.titulo .foto {
+		float: left !important;
+		margin-left: 30px;
+		margin-top: 15px;
+	}
+
+	.titulo .foto img{
+		width: 30px;
+		height: 30px;
+    	border-radius: 50%;
+	}
+
+	.titulo .nome {
+		float: left !important;
+		margin-left: 10px;
+		margin-top: 20px;
+	}
+
+	.img img {
+		width: 600px !important;
+	}
+
+	.curtidas {
+		height: 60px;
+	}
+
+	.curtidas b{
+		float:left !important;
+		margin-top: 20px !important;
+		margin-left: 24px !important;
+	}
